@@ -1,0 +1,17 @@
+.SimilarMovies {
+  padding: 0 24px;
+  width: calc(100% - 48px); // 48px = 24px left & right
+
+  &__section-title {
+    text-align: left;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0 24px;
+    width: 100%;
+    overflow-x: scroll;
+  }
+}

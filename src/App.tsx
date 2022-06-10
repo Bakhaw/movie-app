@@ -1,13 +1,7 @@
-import { useEffect } from "react";
-
-import { fetchMovies } from "./API";
+import AppRouter from "./router";
 
 function App() {
-  useEffect(() => {
-    fetchMovies();
-  });
-
-  return <div>Movie App</div>;
+  return <AppRouter />;
 }
 
 export default App;

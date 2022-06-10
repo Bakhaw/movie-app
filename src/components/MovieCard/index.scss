@@ -1,0 +1,14 @@
+.MovieCard {
+  display: grid;
+  place-items: center;
+
+  &__poster {
+    height: auto;
+    width: 300px;
+  }
+
+  &__title {
+    font-size: 18px;
+    text-align: center;
+  }
+}
